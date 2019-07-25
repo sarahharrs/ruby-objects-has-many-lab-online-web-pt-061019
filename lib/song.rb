@@ -10,4 +10,8 @@ end
     self.artist.name
   end
 
+def Song.count
+  @songs.count
+end
+
 end
