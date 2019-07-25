@@ -20,4 +20,9 @@ def add_song_by_name(name, genre) #method, which adds a song to an artist's coll
   @songs << song
   song.artist = self
 end
+
+def song.count
+  songs.count
+end
+
 end
