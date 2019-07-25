@@ -6,7 +6,6 @@ def initialize(name, genre)
   @genre = genre
 end
 
-
   def artist_name
     self.artist.name
   end
