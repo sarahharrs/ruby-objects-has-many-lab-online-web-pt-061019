@@ -18,7 +18,7 @@ end
 def add_post_by_name(name, genre) #method, which adds a song to an artist's collection and tells that song that it belongs to that particular artist. But, we also create a new song using the name and genre from the arguments.
   song = Post.new(name, genre)
   @posts<< posts
-  posts.artist = self
+  posts.author = self
 end
 
 def post.count
