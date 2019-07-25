@@ -6,7 +6,7 @@ class Artist
     @songs = [ ]
   end
 
-  def add_songs(songs)
+  def add_songs(songs)  #method that enacts those associations at the appropriate time 
     @songs <<songs
     song.artist = self
   end
