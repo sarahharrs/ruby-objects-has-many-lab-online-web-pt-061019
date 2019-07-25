@@ -15,7 +15,7 @@ def songs
   @songs
 end
 
-def add_song_by_name(name, genre)
+def add_song_by_name(name, genre) #method, which adds a song to an artist's collection and tells that song that it belongs to that particular artist. But, we also create a new song using the name and genre from the arguments.
   song = Song.new(name, genre)
   @songs << song
   song.artist = self
